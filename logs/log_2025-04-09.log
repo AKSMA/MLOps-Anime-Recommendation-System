@@ -1,0 +1,9 @@
+2025-04-09 17:54:54,006 - INFO - Seccessfully read the yaml file
+2025-04-09 17:54:54,006 - INFO - Data Ingestion Started.....
+2025-04-09 17:54:54,006 - INFO - Starting the Data Ingestion process....
+2025-04-09 17:54:57,826 - INFO - File anime.csv downloaded from GCP bucket ml_ops_proj2 to artifacts/raw/anime.csv
+2025-04-09 17:55:02,261 - INFO - File anime_with_synopsis.csv downloaded from GCP bucket ml_ops_proj2 to artifacts/raw/anime_with_synopsis.csv
+2025-04-09 18:01:47,272 - INFO - Large file detected Only downloading 5M rows
+2025-04-09 18:01:47,276 - INFO - File animelist.csv downloaded from GCP bucket ml_ops_proj2 to artifacts/raw/animelist.csv
+2025-04-09 18:01:47,278 - INFO - Data Ingestion completed....
+2025-04-09 18:01:47,278 - INFO - Data Ingestion process finished.
