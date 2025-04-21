@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.10-slim
 
 # Set environment variables to prevent Python from writing .pyc files & Ensure Python output is not buffered
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -14,6 +14,8 @@ RUN apt-get update && apt-get install -y \
     python3-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --upgrade pip
 
 # Set the working directory
 WORKDIR /app
