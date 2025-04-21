@@ -1,7 +1,7 @@
 pipeline{
     agent any
 
-    stages(
+    stages{
         stage('Cloning from Github....'){
             steps{
                 script{
@@ -10,5 +10,5 @@ pipeline{
                 }
             }
         }
-    )
+    }
 }
