@@ -1,0 +1,4 @@
+[core]
+    remote = main
+['remote "main"']
+    url = gs://my_dvcbucket/
