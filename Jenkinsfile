@@ -1,7 +1,7 @@
 pipeline{
     agent any
 
-    enviorment{
+    environment{
         VENV_DIR = 'venv'
     }
 
@@ -15,10 +15,10 @@ pipeline{
             }
         }
 
-        stage('Making a virtual enviorment....'){
+        stage('Making a virtual environment....'){
             steps{
                 script{
-                    echo 'Making a virtual enviorment....'
+                    echo 'Making a virtual environment....'
                     sh '''
                     python -m venv ${VENV_DIR}
                     . ${VENV_DIR}/bin/activate
