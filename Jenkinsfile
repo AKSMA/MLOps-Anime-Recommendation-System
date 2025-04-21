@@ -77,8 +77,9 @@ pipeline{
                         gcloud container clusters get-credentials mlopsproj2-cluster --region us-central1
                         kubectl apply -f deployment.yaml
                         '''
+                        }
                     }
                 }
-            }
+        }
     }
 }
